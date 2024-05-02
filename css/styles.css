@@ -1,0 +1,221 @@
+@import url('reset.css');
+
+body {
+	color: #3D3D3D;
+}
+
+
+.in-container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: orange;
+	font-size: 0;
+}
+
+.card {
+	width: 200px;
+	display: inline-block;
+	font-size: 14px;
+	border-right: 2px solid #505050;
+	border-bottom: 2px solid #505050;
+	padding: 0 15px 15px;
+}
+
+.card-img {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+
+.card-title {
+	font-weight: 900;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.card-price {
+	font-weight: 900;
+	text-align: right;
+}
+
+.container-second {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.container-second div {
+	padding: 10px;
+	background: blue;
+}
+
+.container-second div+div {
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background: violet;
+}
+
+/* !SITE */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 30px 0 12px;
+}
+
+.header-container {
+	font-size: 0;
+	border-bottom: 1px solid rgba(70, 163, 88, .1);
+}
+
+.header-logo,
+.header-list,
+.header-list li,
+.header-btn {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+.header-logo {
+	width: 150px;
+}
+
+.header-list {
+	margin-top: 10px;
+	width: 950px;
+	text-align: center;
+}
+
+.header-list li {
+	padding-bottom: 18px;
+}
+
+.header-list li.active {
+	font-weight: 900;
+	border-bottom: 2px solid #46A358;
+}
+
+.header-list li+li {
+	margin-left: 50px;
+}
+
+.header-list li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.header-btn {
+	width: 100px;
+	padding: 8px 17px 7px;
+	background: #46A358;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+}
+
+.header-btn img {
+	vertical-align: middle;
+	margin-right: 1px;
+}
+
+.color-green {
+	color: #46A358;
+}
+
+/* BLOCKS */
+
+.second {
+	outline: 2px solid red;
+	font-size: 0;
+	background: lime;
+}
+
+.second div {
+	outline: 2px solid red;
+}
+
+.second-one {
+	width: 800px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.second-one div {
+	height: 200px;
+}
+
+.second-two {
+	width: 400px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.second-two div {
+	height: 133.333px;
+}
+
+/* dz */
+.global {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main-banner{
+	font-size: 0px;
+}
+
+.left-side{
+	width: 693px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.right-side {
+	width: 500px;
+    display: inline-block;
+}
+
+.h1 {
+	width: 205px;
+	height: 16px;
+	margin: 0px 445px 7px 43px;
+	font-size: 20px;
+}
+
+.h2 {
+	width: 530px;
+	height: 140px;
+	font-size: 70px;
+	margin: 0px 123px 5px 40px;
+	font: bold
+}
+
+.text {
+	width: 557px;
+	height: 45px;
+	margin: 0px 93px 44px 43px;
+	font-size: 14px;
+	color: #727272;
+}
+
+.buy {
+	margin-left: 41px;
+	background: #46A358;
+	color: #fff;
+	border-radius: 6px;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 11px;
+}
+
+.span1 {
+	display: inline-block;
+	color: #46A358;
+}
+
